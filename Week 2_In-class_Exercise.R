@@ -1,4 +1,4 @@
-## Spring 2026 Week 2 In-Class Exercise
+## Fall 2026 Week 2 In-Class Exercise
 ## Instructor: Youngsung Kim (Associate Professor, HUFS)
 ## Author: Seokbin Moon
 ## Date: 9/8/2026
