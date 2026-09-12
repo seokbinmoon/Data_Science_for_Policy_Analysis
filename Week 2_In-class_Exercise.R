@@ -5,11 +5,11 @@
 
 ### PART 1 ###
 
-# Calculate the sum of 4 and 10 below
+# Calculate the sum of 4 and 10 below.
 4 + 10
 
 # Assign the value 24 to x. 
-# Hint: You need to use <- to assign a value to a variable
+# Hint: You need to use <- to assign a value to a variable.
 x <- 24
 
 # Assign the value x-squared to y. 
@@ -51,32 +51,32 @@ print(mean(temperature_fc))
 # Create a logical vector called "above_freezing" that returns TRUE if the temperature of a month is above 32 degrees, FALSE otherwise.
 # Print above_freezing WITHOUT using print()
 above_freezing <- temperature_fc > 32
-print(above_freezing)
+above_freezing
 
-# This vector has the average high temperatures in Atalanta each month
+# This vector has the average high temperatures in Atalanta each month.
 temperature_atlanta <- c(52, 57, 65, 73, 80, 87, 89, 88, 82, 73, 63, 55)
 
-# Assign the names of the months to the "temperature_atlanta" vector
+# Assign the names of the months to the "temperature_atlanta" vector.
 names(temperature_atlanta) <- months
 temperature_atlanta
-# Generate a logical vector called "atlanta_warmer" that returns TRUE if Atlanta was warmer than Fort Collins on a given month
-# Print vector atlanta_warmer using print()
+# Generate a logical vector called "atlanta_warmer" that returns TRUE if Atlanta was warmer than Fort Collins on a given month.
+# Print vector atlanta_warmer using print().
 atlanta_warmer <- temperature_atlanta > temperature_fc
 print(atlanta_warmer)
 
-# Create a vector called "temperature_diff" that shows a difference in temperature between Atlanta and Fort Collins by month
+# Create a vector called "temperature_diff" that shows a difference in temperature between Atlanta and Fort Collins by month.
 # Print "temperature_diff"
 temperature_diff <- temperature_atlanta - temperature_fc
 temperature_diff
   
-# Define a variable called "temperature_march" that pulls the March value out of the temperature_diff variable
+# Define a variable called "temperature_march" that pulls the March value out of the temperature_diff variable.
 # Hint: We grab a element of a vector using [].
 temperature_march <- temperature_diff["Mar"]
 temperature_march
 
 ### PART 3 ###
 
-# Load the tidyverse and nycflights23 libraries using library(tidyverse) and library(nycflights23)
+# Load the tidyverse and nycflights23 libraries using library(tidyverse) and library(nycflights23).
 library(tidyverse)
 library(nycflights23)
 
