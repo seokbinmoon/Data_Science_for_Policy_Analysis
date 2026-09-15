@@ -42,7 +42,6 @@ ggplot(data = short_flights, mapping = aes(x = time_hour, y = arr_delay)) +
 
 ### 5NG#3: Histograms
 ## Create a histogram of humid in the weather data frame
-library(moderndive)
 ggplot(data = weather, mapping = aes(x = humid)) +
   geom_histogram()
 
